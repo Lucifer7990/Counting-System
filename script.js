@@ -46,7 +46,7 @@ var click_count = 0;
 var yes = document.getElementById('yes');
 var no = document.getElementById('no');
 if (localStorage.like === undefined){
-    localStorage.setItem('like','0');
+    localStorage.setItem('like','159');
 }
 likes.innerText = localStorage.like;
 
